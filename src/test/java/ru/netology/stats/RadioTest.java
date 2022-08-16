@@ -191,5 +191,13 @@ public class RadioTest {
         Assertions.assertEquals(100, radio.getMaxVolume());
         Assertions.assertEquals(0, radio.getMinVolume());
     }
+    @Test
+    public void checkSize(){
+        Radio radio = new Radio (9);
+        Assertions.assertEquals(9, radio.getMaxStation());
+        Assertions.assertEquals(0, radio.getMinStation());
+        Assertions.assertEquals(0, radio.getNumberOfTheStation());
+    }
+
 }
 

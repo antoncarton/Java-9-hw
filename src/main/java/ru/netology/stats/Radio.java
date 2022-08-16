@@ -13,6 +13,9 @@ public class Radio {
         this.maxVolume = maxVolume;
         this.minVolume = minVolume;
     }
+    public Radio (int size){
+        maxStation = minStation + size;
+    }
     public int getNumberOfTheStation() {
         return numberOfTheStation;
     }
