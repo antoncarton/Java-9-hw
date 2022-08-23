@@ -16,6 +16,8 @@ public class Radio {
     public Radio (int size){
         maxStation = minStation + size;
     }
+    public Radio (){
+    }
     public int getNumberOfTheStation() {
         return numberOfTheStation;
     }
