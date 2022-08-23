@@ -198,6 +198,10 @@ public class RadioTest {
         Assertions.assertEquals(0, radio.getMinStation());
         Assertions.assertEquals(0, radio.getNumberOfTheStation());
     }
+      @Test
+    public void checkRadio(){
+        Radio radio = new Radio ();
+    }
 }
 
 
